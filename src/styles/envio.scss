@@ -1,0 +1,49 @@
+.coll {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.rell1 {
+    display: block;
+    input {
+        border: 1px solid #979797;
+        margin: 15px;
+        height: 30px;
+
+        padding-left: 15px;
+    }
+
+}
+.postal {
+    display: flex;
+    padding-top: 20px;
+    a {
+        padding: 17px;
+        background-color: #EFBBB7;
+
+        text-decoration: none;
+    }
+    input {
+    padding: 25px;
+    width: 416px;
+
+    border: 1px solid #979797;
+    }
+}
+.todo {
+    padding: 50px;
+}
+.fo {
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 650px) {
+    .fo {
+        display: block;
+    }
+    h1 {
+        padding-top: 25px;
+    }
+    .todo {
+        padding: 15px;
+    }
+}

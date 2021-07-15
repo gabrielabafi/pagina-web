@@ -1,0 +1,108 @@
+.etiqueta {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 50px;
+}
+.eti1 {
+
+
+    img {
+        width: 280px;
+
+    }
+}
+.eti2 {
+
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.head {
+    padding-left: 75px;
+    h1 {
+
+        padding-top: 50px;
+        margin-bottom: 25px;
+    }
+}
+.gastos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pedido {
+    border: 1px solid #979797;
+    padding: 50px;
+    margin-right: 75px;
+}
+.rell {
+    margin-left: 10px;
+    display: block;
+    input {
+        border: 1px solid #979797;
+        margin: 15px;
+        width: 60%;
+        height: 30px;
+
+        padding-left: 15px;
+    }
+
+}
+.but1 {
+    margin-top: 15px;
+    margin-bottom: 45px;
+
+    a {
+        padding: 15px;
+        background-color: #EFBBB7;
+
+        text-decoration: none;
+    }
+}
+.buts {
+    margin-right: 25px;
+}
+.caja {
+    border: 1px solid #979797;
+    
+    margin-right: 75px;
+    margin-top: 50px;
+    margin-bottom: 250px;
+    
+    padding-top: 50px;
+}
+.lin1 {
+    padding-right: 20px;
+}
+.codes {
+    display: flex;
+    justify-content: space-between;
+}
+.pag {
+    margin-left: 25px;
+    margin-bottom: 50px;
+   
+    a {
+        text-decoration: none;
+
+        padding: 15px 15%;
+
+       
+
+
+        background-color: #BCF5D2;
+    }
+}
+
+@media (max-width: 850px) {
+    .etiqueta {
+        display: block;
+    }
+    .eti2 {
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+
+}
+

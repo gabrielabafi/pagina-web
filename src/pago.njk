@@ -1,0 +1,65 @@
+---
+layout: layouts/base.njk
+title: Adidas
+---
+<div class="todo">
+    <div class="cabeza">
+        <h1>{{envío}}</h1>
+        <h1>Envío</h1>
+        <p>Inicia seción y completa tu pedido más rápido.</p>
+    </div>
+    <div class="ptr">
+        <div class="pt1">
+            <h1>Opciones de entrega</h1>
+            <div class="opt">
+                <a>ENVIAR</a>
+                <a href="/envio/">RECOGER</a>
+            </div>
+            {% include "./form.njk" %}
+        </div>
+        <div class="fi">
+            <h4>Resumen del pedido</h4>
+            <div class="dat">
+                <img src="./../images/principal.jpg" alt="">
+                <div class="dat2">
+                    <h2>Zapatillas <br>OZWEEGO</h2>
+                    <div class="dat3">
+                        <p>Talla: 38</p>
+                        <p>Cantidad: 1</p>
+                        <p>Precio: 120€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="total">
+                <div class="hiz">
+                    <p>Subtotal</p>
+                    <p>Gastos de envío</p>
+                    <p>IVA incluido</p>
+                    <span>TOTAL</span>
+                </div>
+                <div class="dere">
+                    <p>120€</p>
+                    <p>0€</p>
+                    <p>20,83</p>
+                    <span>120€</span>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+    
+    <div class="pt2">
+        <h1>Método de envío</h1>
+        <div class="opt">
+            <input type="radio" value=""> Estándar: 0,00€ (4-9 Días laborables)<br>
+            <input type="radio" value=""> Estándar: 5,00€ (1-4 Días laborables)
+        </div>
+    </div>
+    <div class="pg">
+        {% include "./form.njk" %}
+        <div class="pagb">
+            <a href="/envio/">Pagar</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,74 @@
+---
+layout: layouts/base.njk
+title: Inicio
+---
+<div class="entrada">
+    <div class="titulo">
+        <h1>Zapatilla OZWEEGO</h1>
+    </div>
+    <div class="back">
+        <img src="./images/principal1.png"> 
+    </div>
+</div>
+<div class="bot">
+    <div class="frase">
+        <h1>PASADO Y FUTURO SE FUNDEN</h1>
+        <div class="boton">
+            <a href="producto/">comprar</a>
+        </div>
+    </div>
+</div>
+<div class="caract">
+    {% for elemento in prest %}
+        <div class="container">
+            <img src="./images/{{elemento.bamba}}">
+            <div class="contenido">
+                <h2>{{ elemento.name }}</h2>
+                <p>{{ elemento.desc }}</p>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+<div class="bamba1">
+    <div class="descripcion">
+        <h1>Descripción</h1>
+        <p>Esta zapatilla reinventa el estilo de finales de los años 90 fusionando elementos retro con un diseño futurista. Combina paneles de malla, ante y TPU que aportan textura a tu look. La amortiguación específica en la puntera y el talón te ofrece una pisada más cómoda de la mañana a la noche.</p>
+    </div>
+    <div class="fotodesc">
+        <img src="./images/descripción.jpg">
+    </div>
+</div>
+<div class="bamba2">
+    <div class="lista">
+        <h1>Características</h1>
+        <ul>
+            <li>- Diseño suave y ligero.</li>
+            <li>- Parte superior de malla con refuerzos de ante y TPU.</li>
+            <li>- Forro textil; suela de goma.</li>
+            <li>- Cierre de cordones; tubo translúcido que recorre los ojales y da la vuelta al talón para distribuir la presión de los cordones de forma uniforme en todo el pie.</li>
+            <li>- Tecnología Adiprene+ en la puntera para una mayor amortiguación; mediasuela ligera EVA; amortiguación Adiprene en la zona del talón.</li>
+        </ul>
+    </div>
+    <div class="fotolista">
+        <img src="./images/caracteristicas.png">
+    </div>
+</div>
+<div class="caract2">
+    {% for elemento in review %}
+        <div class="container">
+            <img src="./images/{{elemento.influ}}">
+            <div class="contenido2">
+                <p>{{ elemento.rev}}</p>
+                <p>{{ elemento.name}}</p>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+<div class="final">
+    <h3>La mejor calidad y precio al alcance de sus manos.</h3>
+    <div class="frases">
+        <h4>Envío seguro</h4>
+        <h4>Devoluciones rápidas y sencillas</h4>
+        <h4>Compra segura y eficaz</h4>
+    </div>
+</div>

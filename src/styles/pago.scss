@@ -1,0 +1,161 @@
+.opt {
+    a {
+        padding: 15px 20px;
+        border: 1px solid #979797;
+        text-decoration: none;
+    }
+    a:hover {
+        background-color: #DCE1E3;
+    }
+    
+}
+.cabeza {
+    border-bottom: 1px solid #e6e4e4;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    input {
+        padding: 25px;
+        width: 48%;
+
+        border: 1px solid #979797;
+    }
+}
+.adress {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+    input {
+        padding: 25px;
+        width: 48%;
+
+        border: 1px solid #979797;
+    }
+}
+.opt {
+    padding-top: 50px;
+}
+.direc{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    input {
+        padding: 25px;
+        width: 45%;
+    
+        border: 1px solid #979797;
+    }
+    select {
+        background: #fff url('./../images/fl.png') no-repeat;
+        border: 1px solid #979797;
+
+        width: 33px;
+        padding-left: 15px;
+    }
+}
+.pagar {
+    width: 504px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    margin-top: 50px;
+    margin-bottom: 250px;
+    background-color: #BCF5D2;
+    a {
+
+        text-decoration: none;
+        
+    }
+}
+.pt2 {
+    padding-top: 100px;
+}
+
+.opt {
+    input {
+       margin-top: 25px; 
+    }
+}
+
+.dat {
+    display: flex;
+    padding: 25px;
+    margin-top: 50px;
+    border: 1px solid #979797;
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+}
+.dat2 {
+    padding-left: 25px;
+}
+
+.fi {
+    margin-top: 10px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-left: 1px solid #979797;
+    border-right: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+}
+
+.all {
+    // margin-right: ;
+    display: flex;
+    
+}
+.ptr {
+    display: flex;
+    justify-content: space-between;
+}
+.pg {
+    margin-bottom: 100px;
+}
+.pt1 {
+    padding-top: 28px;
+}
+.todo {
+    padding: 50px;
+}
+.pagb {
+    margin-bottom: 100px;
+    margin-top: 50px;
+   
+    a {
+        text-decoration: none;
+        padding: 15px 20%;
+        background-color: #BCF5D2;
+    }
+}
+.dat3 {
+    :last-child {
+        font-weight: bold;
+    }
+}
+
+/* media */
+
+@media (max-width: 958px) {
+    .ptr {
+        display: block;
+    }
+    
+    .dat {
+        img {
+            width: 90px;
+            height: 90px;
+        }
+    }
+    
+}

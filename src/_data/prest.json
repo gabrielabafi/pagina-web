@@ -1,0 +1,17 @@
+[
+    {
+        "bamba": "detalle1.jpg",
+        "name": "INSPIRACIÓN VINTAGE",
+        "desc": "Los ojales, la mediasuela y el tubo de nailon translúcido evocan el estilo de la Ozweego 3 de 1998."   
+    },
+    {
+        "bamba": "detalle2.jpg",
+        "name": "ADIPRENE EN LA PUNTERA",
+        "desc": "La tecnología Adiprene+ en el antepié absorbe los impactos dando protección y estabilidad."        
+    },
+    {
+        "bamba": "detalle3.jpg",
+        "name": "ADIPRENE EN EL TALÓN",
+        "desc": "La tecnología Adiprene situada bajo el talón absorbe los impactos y aporta mayor amortiguación."         
+    }
+]
