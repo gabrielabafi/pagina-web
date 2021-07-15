@@ -30,10 +30,8 @@ body {
 
 .titulo {
   position: absolute;
-
-  bottom: 10px;
+  bottom: -100px;
   padding-left: 50px;
-
   z-index: 99;
 
   h1 {
@@ -41,18 +39,18 @@ body {
     font-style: italic;
   }
 }
+
 h1 {
   font-family: "Avantgarde";
   font-size: 42px;
 }
+
 p {
   font-size: 20px;
 }
 
 .back {
-
   background-color: #ECEEF0;
-
   position: relative;
   
   img {
@@ -67,16 +65,13 @@ p {
   width: 100%;
   display: flex;
   justify-content: space-between;
-
   padding-left: 72px;
   padding-top: 75px;
   padding-bottom: 75px;
-
   background-color: #BAF6D1;
 
   img {
     width: 70%;
-      
     object-fit:cover;
   }
 }
@@ -102,12 +97,10 @@ p {
 }
 
 .boton {
-
   padding: 15px 50px;
   max-width: 30%;
   max-height: 60px;
   margin-left: 57px;
-
   background-color: #BCF5D2;
 
   a {
@@ -126,7 +119,6 @@ h2 {
 .bamba1 {
   display: flex;
   justify-content: space-between;
-
   padding-left: 75px;
   margin-top: 50px;
 
@@ -147,7 +139,6 @@ h2 {
 .bamba2 {
   display: flex;
   justify-content: space-between;
-
   padding-left: 75px;
   margin-top: 50px; 
 }
@@ -181,16 +172,22 @@ li {
   }
 }
 
+
+.opiniones{
+  padding-top: 75px;
+  padding-left: 75px;
+}
+
 .caract2 {
   width: 100%;
   display: flex;
   justify-content: space-between;
-
   padding-left: 72px;
-  padding-top: 75px;
+  padding-top: 40px;
   padding-bottom: 75px;
-
   border-bottom: 1px solid #979797;
+  padding-bottom: 75px;
+   
 
   img {
     width: 280px;
@@ -201,14 +198,19 @@ li {
 }
 /* PARTEE FINAL*/
 .final {
-  padding-left: 172px;
+  padding-left: 100px;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
+ 
+  
+
   h3 {
     font-weight: bold;
     font-size: 35px;
     font-style: italic;
-    padding-left: 70px;
+    margin-left: 450px;
+   
+  
   }
 }
 .frases {
@@ -224,6 +226,8 @@ h4 {
 }
 
 @media (max-width: 650px) {
+  
+
   .frase {
     display: block;
   }
@@ -295,10 +299,14 @@ h4 {
   .lista {
     max-width: 100%;
   }
+
+  .opiniones{
+    padding-left: 15px;
+  }
+  
   .caract2 {
     width: 100%;
     display: block;
-  
     padding-left: 15px;
     padding-top: 50px;
     padding-bottom: 25px;
@@ -310,15 +318,29 @@ h4 {
       height: auto;
     }
   }
-  .frases {
-    display: block;
-  }
+
   .final {
-    padding-left: 15px;
+    padding-left: 20px;
+    
+    h3 {
+      font-weight: bold;
+      font-size: 35px;
+      font-style: italic;
+      margin-left: 0px;
+      align-items: center;
+    }
+
+
+    .frases {
+      display: block;
+    }
+    
+
+    .bot {
+      padding: 10px;
+      margin-bottom: 25px;
+    }
+    
   }
-  .bot {
-    padding: 10px;
-    margin-bottom: 25px;
-  }
-  
+
 }

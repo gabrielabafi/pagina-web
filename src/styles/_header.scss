@@ -1,9 +1,7 @@
 .header {
     padding: 50px;
-
     background-color: #80ABE9;
 }
-
 
 .parte1 {
     display: flex;
@@ -12,6 +10,7 @@
     padding-bottom: 15px;
     border-bottom: 1px solid #669FF1;
 }
+
 .rss {
     display: flex;
 
@@ -38,7 +37,7 @@
 }
 .adidas {
     img {
-        height: 35px;
+        height: 45px;
         width: auto;
     }
 }
@@ -67,10 +66,10 @@
 
 .parte3 {
     background-color: #80ABE9;
-
     display: flex;
     justify-content: space-between;
 }
+
 .personal1 {
 
     a, p {
@@ -93,13 +92,13 @@
     z-index: 99;
     top: 0px;
     width: 100%;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #669FF1;
 }
 
 .headermobile-nav {
     padding: 10px;
     height: 60px;
-    background-color: white;
+    background-color: #80ABE9;
 
     display: flex;
     justify-content: space-between;
